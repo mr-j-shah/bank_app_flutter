@@ -31,7 +31,7 @@ class _jinayState extends State<jinay> {
             ),
             Container(
               height: 70,
-              width: 100,
+              width: MediaQuery.of(context).size.width * 0.8,
               color: Color.fromARGB(26, 37, 130, 167),
               child: Text(
                 '$num',
